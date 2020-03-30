@@ -7,3 +7,7 @@ get_prop(platform_app, vendor_audio_prop);
 # Dolby Sepolicy
 allow platform_app hal_dms_hwservice:hwservice_manager find;
 allow platform_app hal_dms_default:binder { call transfer };
+get_prop(platform_app, audio_config_prop);
+
+# Face Unlock
+get_prop(platform_app, vendor_camera_prop)
