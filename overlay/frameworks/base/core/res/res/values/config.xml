@@ -610,9 +610,11 @@
 
     <!-- Indicate available ColorDisplayManager.COLOR_MODE_xxx. -->
     <integer-array name="config_availableColorModes">
-        <item>0</item>
-        <item>1</item>
-        <item>3</item>
+        <item>258</item> <!-- vivid -->
+        <item>256</item> <!-- saturated -->
+        <item>257</item> <!-- original -->
+        <item>268</item> <!-- p3 -->
+        <item>267</item> <!-- srgb -->
     </integer-array>
 
     <!-- Color mode to use when accessibility transforms are enabled. This color mode must be
@@ -887,5 +889,5 @@
         <item>org.lineageos.aperture.dev</item>
         <item>org.pixelexperience.faceunlock</item>
     </string-array>
-    
+
 </resources>
