@@ -679,6 +679,10 @@
         <item>7,1</item>
     </string-array>
 
+    <!-- List of comma separated package names for which we the system will not show crash, ANR,
+         etc. dialogs. -->
+    <string name="config_appsNotReportingCrashes">com.android.statementservice</string>
+
     <!-- The default refresh rate. haydn manages this using the peak refresh rate setting, so set
          this value to 0 so it has no effect. -->
     <integer name="config_defaultRefreshRate">0</integer>
