@@ -30,6 +30,9 @@
     <!--  ID for the camera that needs extra protection -->
     <string translatable="false" name="config_protectedCameraId">1</string>
 
+    <!-- If not zero, limits the internal screen recorder's framerate to the set value. -->
+    <integer name="config_screenRecorderMaxFramerate">120</integer>
+
     <!--  Flag to turn on the rendering of the above path or not  -->
     <bool name="config_enableDisplayCutoutProtection">true</bool>
 
