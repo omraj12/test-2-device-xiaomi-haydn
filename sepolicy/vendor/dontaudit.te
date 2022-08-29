@@ -1,0 +1,3 @@
+dontaudit untrusted_app media_rw_data_file:file relabelfrom;
+dontaudit platform_app fuse:file ioctl;
+dontaudit untrusted_app_29 fuse:file ioctl;
