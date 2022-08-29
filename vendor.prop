@@ -148,6 +148,9 @@ persist.vendor.dpmhalservice.enable=1
 # DRM
 drm.service.enabled=true
 
+# Dalvik
+dalvik.vm.systemuicompilerfilter=speed
+
 # Fingerprint
 persist.vendor.sys.fp.vendor=fpc
 ro.hardware.fingerprint=fpc
