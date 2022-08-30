@@ -12,3 +12,6 @@ ro.miui.build.region                u:object_r:exported_system_prop:s0
 # Hardware
 ro.hardware.chipname    u:object_r:build_prop:s0
 ro.hardware.alter    u:object_r:build_prop:s0
+
+# Parts
+settingsdebug.instant.packages	     u:object_r:settingslib_prop:s0
