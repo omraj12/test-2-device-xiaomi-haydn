@@ -38,12 +38,6 @@ on init
     write /dev/cpuctl/foreground/cpu.uclamp.colocate 0
     write /dev/cpuctl/top-app/cpu.uclamp.colocate 1
 
-on post-fs
-    # Set aggressive read ahead for dm-0 and dm-1 during boot up
-    write /sys/block/dm-0/queue/read_ahead_kb 2048
-    write /sys/block/dm-1/queue/read_ahead_kb 2048
-    write /sys/block/dm-2/queue/read_ahead_kb 2048
-
 on early-boot
     # Allow subsystem (modem etc) debugging
     write /sys/kernel/boot_adsp/boot 1
