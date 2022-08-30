@@ -11,10 +11,6 @@
     <name>android.hardware.drm</name>
     <version>1</version>
     <interface>
-        <name>ICryptoFactory</name>
-        <instance>clearkey</instance>
-    </interface>
-    <interface>
         <name>IDrmFactory</name>
         <instance>clearkey</instance>
     </interface>
