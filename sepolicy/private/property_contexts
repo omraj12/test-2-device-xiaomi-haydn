@@ -15,3 +15,6 @@ ro.hardware.alter    u:object_r:build_prop:s0
 
 # Parts
 settingsdebug.instant.packages	     u:object_r:settingslib_prop:s0
+
+# WiFi Display
+persist.vendor.setWFDInfo. u:object_r:vendor_wfd_sys_debug_prop:s0
