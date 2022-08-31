@@ -1,3 +1,20 @@
 dontaudit untrusted_app media_rw_data_file:file relabelfrom;
+dontaudit untrusted_app qemu_hw_prop:file read;
 dontaudit platform_app fuse:file ioctl;
 dontaudit untrusted_app_29 fuse:file ioctl;
+dontaudit untrusted_app_29 qemu_hw_prop:file read;
+dontaudit untrusted_app_29 app_data_file:dir getattr;
+dontaudit untrusted_app_29 rootfs:dir read;
+dontaudit untrusted_app_27 debugfs_trace_marker:file getattr;
+
+dontaudit untrusted_app_27 {
+    proc_misc
+    build_bootimage_prop
+    proc_net_tcp_udp
+    wifi_hal_prop
+}:file read;
+
+dontaudit untrusted_app_27 {
+    vendor_proc_shs
+    proc_asound
+}:dir search;
