@@ -9,3 +9,6 @@ git clone --depth=1 https://gitlab.pixelexperience.org/android/vendor-blobs/vend
 
 rm -rf vendor/xiaomi/haydn-firmware
 git clone --depth=1 https://gitlab.pixelexperience.org/android/vendor-blobs/vendor_xiaomi_haydn-firmware vendor/xiaomi/haydn-firmware
+
+rm -rf vendor/Gcam
+git clone https://gitlab.com/sanjeevstunner/vendor-g-cam-bsg.git -b main vendor/Gcam

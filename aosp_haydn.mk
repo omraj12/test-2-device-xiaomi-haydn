@@ -11,8 +11,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from haydn device
 $(call inherit-product, device/xiaomi/haydn/device.mk)
 
-# Pixel Launcher 
+# Pixel Launcher
 $(call inherit-product, vendor/PixelLauncher/PixelLauncher.mk)
+
+# Inherit from Gcam config
+$(call inherit-product, vendor/Gcam/config.mk)
 
 # Inherit some common Project Elixir stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
