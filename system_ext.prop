@@ -18,5 +18,7 @@ bluetooth.profile.sap.server.enabled=true
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
 
-# Blur
-ro.launcher.blur.appLaunch=0
+# Telephony
+ro.telephony.sim_slots.count=2
+telephony.active_modems.max_count=2
+
