@@ -1,0 +1,6 @@
+device/xiaomi/
+vendor/xiaomi/
+vendor/Gcam/
+vendor/xiaomi/haydn-firmware/
+kernel/xiaomi/
+
