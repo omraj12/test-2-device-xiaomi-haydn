@@ -11,9 +11,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from haydn device
 $(call inherit-product, device/xiaomi/haydn/device.mk)
 
-# Pixel Launcher
-$(call inherit-product, vendor/PixelLauncher/PixelLauncher.mk)
-
 # Inherit from Gcam config
 $(call inherit-product, vendor/Gcam/config.mk)
 
