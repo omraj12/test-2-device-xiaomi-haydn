@@ -14,3 +14,6 @@ git clone --depth=1 https://gitlab.pixelexperience.org/android/vendor-blobs/vend
 rm -rf vendor/Gcam
 git clone --depth=1 https://gitlab.com/sanjeevstunner/vendor-g-cam-bsg.git -b main vendor/Gcam
 
+# Health
+rm -rf vendor/qcom/opensource/healthd-ext
+git clone https://github.com/PixelExperience/vendor_qcom_opensource_healthd-ext.git vendor/qcom/opensource/healthd-ext
