@@ -4,4 +4,3 @@ vendor/Gcam/
 vendor/xiaomi/haydn-firmware/
 vendor/qcom/opensource/healthd-ext/
 kernel/xiaomi/
-
