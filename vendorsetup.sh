@@ -1,6 +1,6 @@
 # Kernel
 rm -rf kernel/xiaomi/haydn
-git clone --depth=1 https://github.com/PixelExperience-Devices/kernel_xiaomi_haydn kernel/xiaomi/haydn
+git clone --depth=1 https://github.com/Alucard-Storm/kernel_xiaomi_haydn.git kernel/xiaomi/haydn
 
 # Vendor
 rm -rf vendor/xiaomi/haydn
