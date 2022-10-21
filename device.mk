@@ -302,8 +302,6 @@ PRODUCT_PACKAGES += \
     libOmxEvrcEnc \
     libOmxG711Enc \
     libOmxQcelp13Enc \
-    libOmxVdec \
-    libOmxVenc \
     libstagefrighthw
 
 PRODUCT_COPY_FILES += \
@@ -346,7 +344,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.nfc_snxxx@1.2-service \
     com.android.nfc_extras \
-    com.gsma.services.nfc \
     libchrome.vendor \
     NfcNci \
     SecureElement \
