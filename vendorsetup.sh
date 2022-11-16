@@ -8,7 +8,7 @@ git clone --depth=1 https://gitlab.com/omraj12/projectelixir_vendor_xiaomi_haydn
 
 # Firmware
 rm -rf vendor/xiaomi/haydn-firmware
-git clone --depth=1 https://gitlab.pixelexperience.org/android/vendor-blobs/vendor_xiaomi_haydn-firmware vendor/xiaomi/haydn-firmware
+git clone https://gitlab.pixelexperience.org/android/vendor-blobs/vendor_xiaomi_haydn-firmware.git -b thirteen vendor/xiaomi/haydn-firmware
 
 # Gcam
 rm -rf vendor/Gcam
