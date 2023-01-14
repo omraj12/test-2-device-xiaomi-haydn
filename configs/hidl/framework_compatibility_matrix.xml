@@ -369,6 +369,14 @@
     </interface>
 </hal>
 <hal format="hidl">
+    <name>vendor.qti.diaghal</name>
+    <version>1.0</version>
+    <interface>
+        <name>Idiag</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl">
     <name>vendor.qti.hardware.radio.uim</name>
     <version>1.0-2</version>
     <interface>
