@@ -96,6 +96,14 @@
     </interface>
 </hal>
 <hal format="hidl">
+    <name>vendor.dolby.hardware.dms</name>
+    <version>2.0</version>
+    <interface>
+        <name>IDms</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl">
     <name>vendor.display.color</name>
     <version>1.0-5</version>
     <interface>
