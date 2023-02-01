@@ -703,12 +703,6 @@ vendor/lib64/libcvp_common.so
 vendor/lib64/libcvpcpuRev_skel.so
 vendor/lib64/vendor.qti.hardware.cvp@1.0.so
 
-# Diag HAL
--vendor/etc/vintf/manifest/vendor.qti.diag.hal.service.xml
-vendor/bin/diag-router
-vendor/etc/init/vendor.qti.diag.rc
-vendor/lib64/vendor.qti.diaghal@1.0.so
-
 # Display-calibration
 vendor/etc/display/DPU660.xml
 vendor/etc/display/DPU670.xml
